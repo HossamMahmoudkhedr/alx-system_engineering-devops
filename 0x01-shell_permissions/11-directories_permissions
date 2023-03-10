@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R `stat -c %a .` .
+chomd -R
