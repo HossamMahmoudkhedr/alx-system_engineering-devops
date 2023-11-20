@@ -2,6 +2,7 @@
 """Contains top_ten function"""
 import requests
 
+
 def top_ten(subreddit):
     headers = {
         "User-Agent": "0x16-api_advanced",
