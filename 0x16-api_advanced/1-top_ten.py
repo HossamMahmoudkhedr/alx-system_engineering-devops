@@ -2,11 +2,11 @@
 """Contains top_ten function"""
 import requests
 
-headers = {
-    "User-Agent": "0x16-api_advanced",
-    "X-Forwared-For": "hossam"
-}
 def top_ten(subreddit):
+    headers = {
+        "User-Agent": "0x16-api_advanced",
+        "X-Forwared-For": "hossam"
+    }
     """Print the titles of the 10 hottest posts on a given subreddit."""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = headers
